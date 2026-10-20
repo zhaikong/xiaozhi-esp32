@@ -3,12 +3,10 @@ components/
 managed_components/
 build/
 dist/
-.vscode/
 .devcontainer/
 sdkconfig.old
 sdkconfig
 dependencies.lock
-.env
 releases/
 main/assets/lang_config.h
 main/mmap_generate_emoji.h
@@ -18,3 +16,5 @@ main/mmap_generate_emoji.h
 *.bin
 mmap_generate_*.h
 .clangd
+config.bat
+node_modules
