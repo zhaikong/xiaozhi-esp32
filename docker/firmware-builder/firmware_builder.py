@@ -8,6 +8,11 @@ directory, and exits with the underlying build status.
 
 from __future__ import annotations
 
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import argparse
 import hashlib
 import json
